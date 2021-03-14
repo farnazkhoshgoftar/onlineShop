@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*========================css reset end========================*/
+
+@font-face {
+    font-family: myFont;
+    src: url(./assets/fonts/IRANSansWeb.ttf);
+}
+
+body {
+    font-family: myFont !important;
+}
+
+/*========================font end========================*/
+

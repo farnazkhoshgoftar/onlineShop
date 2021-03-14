@@ -1,0 +1,62 @@
+.footer {
+    background-color: #333338;
+    border-top: 6px solid rgb(252, 185, 185);
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.footer .email {
+    height: 26px;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: none;
+}
+
+.footer .register {
+    border: none;
+    box-shadow: none;
+    width: 90px;
+    padding: 2px;
+    border-radius: 30px;
+    border: 1px solid #999;
+    color: #ccc;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #446;
+    height: 42px;
+    margin-top: 20px;
+}
+
+.newsletter,
+.sitemap {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 340px;
+}
+
+.newsletter .register:hover {
+    background-color: #668;
+    color: white;
+}
+
+.sitemap li {
+    line-height: 2.5em;
+    float: right;
+    margin: 10px 20px;
+    width: 130px;
+}
+
+.sitemap a {
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.sitemap a:hover {
+    color: white;
+}
